@@ -4,7 +4,7 @@ on:
   schedule:
     # Roda automaticamente todos os dias à meia-noite
     - cron: "0 0 * * *"
-  workflow_dispatch: # Permite rodar o script manualmente quando você quiser
+  workflow_dispatch: # Permite rodar manualmente
 
 jobs:
   generate-stats:
@@ -15,19 +15,23 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: Gerar Stats
+      - name: Gerar Card de Estatísticas Principais
         uses: stats-organization/github-readme-stats-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          theme: dracula
-          show_icons: true
-          include_all_commits: true
-          count_private: true
-          hide_border: true
-          # Isso vai salvar as imagens na pasta "images" na raiz do seu repo
-          output_dir: images
+          card: stats
+          # Aqui passamos as configurações como se fosse uma URL
+          options: theme=dracula&show_icons=true&include_all_commits=true&count_private=true&hide_border=true
+          path: images/github-stats.svg
 
-      # Este passo pega os arquivos gerados e salva no seu repositório
+      - name: Gerar Card de Linguagens
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: top-langs
+          options: layout=compact&langs_count=6&theme=dracula&hide_border=true
+          path: images/top-langs.svg
+
       - name: Commitar as novas imagens
         run: |
           git config --global user.name "github-actions[bot]"
