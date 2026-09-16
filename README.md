@@ -33,3 +33,9 @@ Sou apaixonado por transformar ideias em projetos reais. Gosto de atuar no desen
   <img height="160em" src="./images/github-stats.svg" alt="Estatísticas do GitHub" />
   <img height="160em" src="./images/top-langs.svg" alt="Linguagens mais usadas" />
 </div>
+
+---
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/DanielSousa07/DanielSousa07/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
