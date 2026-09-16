@@ -18,9 +18,9 @@ jobs:
       - name: Gerar Card de Estatísticas Principais
         uses: stats-organization/github-readme-stats-action@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # AQUI ESTAVA O ERRO! Mudei para MEU_TOKEN_STATS
+          token: ${{ secrets.MEU_TOKEN_STATS }}
           card: stats
-          # Aqui passamos as configurações como se fosse uma URL
           options: theme=dracula&show_icons=true&include_all_commits=true&count_private=true&hide_border=true
           path: images/github-stats.svg
 
