@@ -1,49 +1,35 @@
-<div align="center">
+## E aí! Eu sou o Daniel Sousa, estudante de Informática e Desenvolvedor! 👋
 
-# Olá! Eu sou o Daniel 👋
+Sou apaixonado por transformar ideias em projetos reais. Gosto de atuar no desenvolvimento web e mobile (principalmente com **React Native** e **Node.js**) e também em projetos de **Robótica Educativa e Competitiva** (Equipe Codemakers). Atualmente estudando no IFMA Campus Timon e aprendendo sempre na prática!
 
-💻 **Técnico em Informática** | 🚀 **Desenvolvedor** | 🤖 **Robótica**
-
-Estudante no **IFMA Campus Timon**, transformando ideias em projetos reais. Gosto de aprender colocando a mão na massa com código, robótica e resolução de problemas práticos.
-
+<div style="display: inline-block"><br>
+  <img align="center" alt="Daniel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Daniel-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="Daniel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Daniel-Node" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Daniel-Express" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
+  <img align="center" alt="Daniel-Postgres" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
+  <img align="center" alt="Daniel-Arduino" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-plain.svg">
+  <img align="center" alt="Daniel-Figma" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
+</div>
+  
+##
+ 
+<div> 
+  <a href="https://www.linkedin.com/in/SEU_LINKEDIN" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="mailto:SEU_EMAIL@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/SEU_INSTAGRAM" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
 
----
+## 🚀 Projetos & Atividades
 
-## 🛠️ Tecnologias
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React Native](https://img.shields.io/badge/-React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/-Prisma-3982CE?style=flat&logo=Prisma&logoColor=white)
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=arduino&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-
----
-
-## 🚀 Projetos & Experiência
-
-* 🎲 **Ludus:** App Full Stack (*React Native, Node.js, PostgreSQL*) para locação e gerenciamento de jogos de tabuleiro no IFMA, contando com sistema de auth, catálogo e pontuação.
-* 🖐️ **Librix:** Plataforma web educacional interativa focada no aprendizado acessível de Libras (*React, Vite*).
-* 🤖 **Robótica (Equipe Codemakers):** Montagem, eletrônica e programação (*Arduino/ESP32*) de robôs autônomos. 
-  * *Conquistas:* 🥇 1º lugar Desafio de Coleta | 🥇 1º lugar RoboLeague (Cabo de Guerra) | 🌎 Participação na FIRA RoboWorld Cup.
-
----
+* 🎲 **Ludus:** App Full Stack (*React Native, Node.js, Prisma*) para aluguel e gerenciamento de jogos de tabuleiro dentro do IFMA.
+* 🤟 **Librix:** Aplicação web voltada para educação e aprendizado interativo de Libras.
+* 🤖 **Robótica:** Desenvolvedor e competidor pela equipe **Codemakers** (*Arduino, ESP32*). Campeão do Desafio de Coleta e RoboLeague (Cabo de Guerra).
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=DanielSousa07&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielSousa07&layout=compact&langs_count=6&theme=tokyonight&hide_border=true" />
+<div style="display: inline-block">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=DanielSousa07&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielSousa07&layout=compact&langs_count=6&theme=dracula&hide_border=true" />
 </div>
-
----
-
-## 📚 Atualmente
-
-🌱 Focando em evoluir em: **Arquitetura de Aplicações, Backend Avançado, TypeScript e Inglês**.
-
-📫 **Bora trocar uma ideia?** 
-[LinkedIn](#) | [Email](mailto:seu-email@email.com)
