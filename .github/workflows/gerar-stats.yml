@@ -1,0 +1,37 @@
+name: Gerar GitHub Stats
+
+on:
+  schedule:
+    # Roda automaticamente todos os dias à meia-noite
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Permite rodar o script manualmente quando você quiser
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Gerar Stats
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: dracula
+          show_icons: true
+          include_all_commits: true
+          count_private: true
+          hide_border: true
+          # Isso vai salvar as imagens na pasta "images" na raiz do seu repo
+          output_dir: images
+
+      # Este passo pega os arquivos gerados e salva no seu repositório
+      - name: Commitar as novas imagens
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add images/
+          git commit -m "chore: atualiza status do github [skip ci]" || exit 0
+          git push
