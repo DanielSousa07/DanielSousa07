@@ -30,6 +30,6 @@ Sou apaixonado por transformar ideias em projetos reais. Gosto de atuar no desen
 ## 📊 GitHub Stats
 
 <div style="display: inline-block">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=DanielSousa07&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielSousa07&layout=compact&langs_count=6&theme=dracula&hide_border=true" />
+  <img height="160em" src="./images/github-stats.svg" alt="Estatísticas do GitHub" />
+  <img height="160em" src="./images/top-langs.svg" alt="Linguagens mais usadas" />
 </div>
