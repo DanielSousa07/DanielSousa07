@@ -27,7 +27,7 @@ jobs:
       - name: Gerar Card de Linguagens
         uses: stats-organization/github-readme-stats-action@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MEU_TOKEN_STATS }}
           card: top-langs
           options: layout=compact&langs_count=6&theme=dracula&hide_border=true
           path: images/top-langs.svg
